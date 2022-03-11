@@ -43,7 +43,16 @@ public class Caixa {
                 objectArray[i] = objectArray[i+1];
 
             }
+
+            objectArray[this.nobj-1] = null;
             this.nobj--;
+        } else System.out.println("la posicio a eliminar no exiteix");
+    }
+
+    public Object get(int pos) {
+        if (pos < this.nobj){
+            return objectArray[pos];
         }
+        throw new RuntimeException("Posició inexistent")
     }
 }

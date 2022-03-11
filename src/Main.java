@@ -8,8 +8,9 @@ public class Main {
         caixa.addElement("c");
         caixa.addElement("d");
 
-        caixa.remove(1);
-        System.out.println(caixa);
+        //caixa.remove(1);
+        Object o = caixa.get(1);
 
+        System.out.println(caixa);
     }
 }
