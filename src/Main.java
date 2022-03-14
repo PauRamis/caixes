@@ -9,8 +9,11 @@ public class Main {
         caixa.addElement("d");
 
         //caixa.remove(1);
+
         Object o = caixa.get(1);
+        System.out.println(o);
 
         System.out.println(caixa);
+
     }
 }

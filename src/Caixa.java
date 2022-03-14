@@ -53,6 +53,6 @@ public class Caixa {
         if (pos < this.nobj){
             return objectArray[pos];
         }
-        throw new RuntimeException("Posició inexistent")
+        throw new RuntimeException("Posició inexistent");
     }
 }
